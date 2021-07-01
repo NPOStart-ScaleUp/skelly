@@ -42,5 +42,5 @@ dokka {
     outputDirectory = "$buildDir/dokka"
 }
 
-apply from: rootProject.file('gradle/maven-android-prepare.gradle')
-apply from: rootProject.file('gradle/maven-publish.gradle')
+apply from: parent.file('gradle/maven-android-prepare.gradle')
+apply from: parent.file('gradle/maven-publish.gradle')
